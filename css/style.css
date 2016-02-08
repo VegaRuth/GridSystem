@@ -1,3 +1,6 @@
+body{
+	font-family: sans-serif;
+}
 /* HEADER*/
 #header{
 	background-color: #2E2E2E;                                                        
@@ -10,16 +13,76 @@
 .main>li{
 	display: inline-block;
 	list-style: none;
-	font-family: sans-serif;
 	color: white;
 	margin-top: 7%;
 	margin-left: 3%;
 	margin-right: 1%;
 	font-size: 13px;
+}
+.main>li:hover a{
+	background: black;
 
+}
+.main a{
+	text-decoration: none;
+	color: white;
+}
+/*SECTION*/
+.links{
+	color: #045FB4;
+	text-decoration: none;
+	font-size: 10px;
+}
+.p-section span{
+	color: black;
+	font-size: 20px;
+	
+	margin-left: 10px;
+}
+.img-episodes{
+	width: 180px;
+	height: 180px;
+	border:.5px solid gray;
+	
+	padding: 1px;
+	display: inline-block;
+	margin-top: 10px;
+}
+.principal-section{
+	color: #045FB4;
+	text-decoration: none;
+	font-size: 15px;
+	text-align: center;
+	font-weight: bold;
 }
 /*FOOTER*/
 #footer{
 	background:#585858;
-
 }
+.red-more{
+	color: #bfbfbf;
+	font-size: 15px;
+}
+.red-more>li{
+	display: inline-block;
+	list-style: none;
+	margin: auto;
+}
+.red-more>ul{
+	position: relative;
+	margin: auto;
+}
+.cr{
+	font-size: 10px;
+	color:#b3b3b3 ;
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.pfooter{
+	color: white;
+	margin-bottom: 20px;
+	font-size: 15px;
+}
+
+	
