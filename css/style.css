@@ -1,6 +1,9 @@
 body{
 	font-family: sans-serif;
 }
+a{
+	text-decoration: none;
+}
 /* HEADER*/
 #header{
 	background-color: #2E2E2E;                                                        
@@ -20,14 +23,18 @@ body{
 	font-size: 13px;
 }
 .main>li:hover a{
-	background: black;
-
+	background: #585858;
 }
 .main a{
-	text-decoration: none;
 	color: white;
 }
 /*SECTION*/
+#episodes{
+	background-color: #E6E6E6;
+}
+#title-episodes{
+	background-color: #E6E6E6;
+}
 .links{
 	color: #045FB4;
 	text-decoration: none;
@@ -36,14 +43,12 @@ body{
 .p-section span{
 	color: black;
 	font-size: 20px;
-	
 	margin-left: 10px;
 }
 .img-episodes{
 	width: 180px;
 	height: 180px;
 	border:.5px solid gray;
-	
 	padding: 1px;
 	display: inline-block;
 	margin-top: 10px;
@@ -52,23 +57,70 @@ body{
 	color: #045FB4;
 	text-decoration: none;
 	font-size: 15px;
-	text-align: center;
 	font-weight: bold;
+	margin-bottom: 20px;
+}
+/*Seccion Grande*/
+.img-principal{
+	width: 100%;
+	height: 100%;
+	border:.5px solid gray;
+	padding: 1px;
+	display: inline-block;
+	margin: 20px 2% 2% 2%;
+}
+#big-section{
+	background-color: #ffffff;
+}
+.p-bigsection{
+	color: #045FB4;
+	display: inline-block;
+	margin: 1px;
+	font-size: 10px;
+	text-align: center;
+}
+.big-section div{
+	display: inline-block;
+}
+/*LATERAL SECTION*/
+.img-icon{
+	width: 100%;
+	height: 100%;
+}
+.section-lateral{
+	color: #424242;
+	font-size: 14px;
+	font-weight: bold;
+	margin-top: 20px;
+}
+.link-lateral{
+	color: #045FB4;
+	margin: 1px;
+	font-size: 12px;
+	text-align: left;
+	text-decoration: none;
+}
+.text-lateral{
+	color: #000000;
+	margin: 1px;
+	font-size: 12px;
+	text-align: left;
 }
 /*FOOTER*/
 #footer{
 	background:#585858;
 }
-.red-more{
+.read-more{
 	color: #bfbfbf;
 	font-size: 15px;
+	margin-right: 10px;
 }
-.red-more>li{
+.read-more>li{
 	display: inline-block;
 	list-style: none;
 	margin: auto;
 }
-.red-more>ul{
+.read-more>ul{
 	position: relative;
 	margin: auto;
 }
@@ -82,7 +134,9 @@ body{
 .pfooter{
 	color: white;
 	margin-bottom: 20px;
-	font-size: 15px;
+	font-size: 14px;
+	margin: 25px;
 }
-
-	
+.read-more>li:hover a{
+	background: #2E2E2E;
+}
